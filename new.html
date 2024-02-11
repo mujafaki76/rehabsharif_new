@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap cdn link  -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+     <!-- bootstrap icons cdn  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Our custom css  -->
+     <link rel="stylesheet" href="css.css" />
+
+    <title>Document</title>
+</head>
+
+    <body class="m-0 border-0 p-0 ">
+        <!-- Main Navbar  -->
+        <nav class="navbar navbar-expand-lg bg-navbar p-0 m-0 fixed-top">
+            <!--make navbar fixed to top with no side margin or space-->
+            <div class="container">
+    
+                <a class="navbar-brand " href="#"> <img src="/assets/brandlogo.png" width="50" height="55" /></a>
+                <!--given logo size because its big will spoil navbar design-->
+    
+                <button class="navbar-toggler" id="toggler-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+                </button>
+                <!-- this is the button for toggle event, use bootstrap default,(bootstrap javascript cdn must import)-->
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!--in this div place all the content want to toggle-->
+                    <!-- put every navigaition in the form of ul & li and give bootstrap navbar class-->
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                الدورات
+                            </a>
+                            <ul class="dropdown-menu text-center w-50">
+                                <li><a class="dropdown-item nav-link text-dark" href="#">الدورات المسجلة</a></li>
+                                <li><a class="dropdown-item nav-link text-dark " href="#">الدورات المباشرة</a></li>
+    
+                            </ul>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">الإستشارات</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../assets/Blog – رحاب شريف.html">المقالات</a>
+                            
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../assets/وكلائنا – رحاب شريف.html">وكلائنا</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">تواصل معنا</a>
+                        </li>
+    
+                    </ul>
+    
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#"><i class="bi bi-cart3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">دخول الأعضاء</a>
+                        </li>
+    
+                        <li class="nav-item nav_active_btn ">
+                            <a class="nav-link text-white ">تسجيل حساب جديد</a>
+                        </li>
+    
+    
+                    </ul>
+    
+                </div>
+            </div>
+        </nav>
+    
+        <!-- Main Navbar end  -->
+
+        
+        <!-- Section 1 start - About rehab sharif  -->
+        <section style=" margin-bottom: 0px; padding-bottom: 0px;" class="pt-md-5 pt-3">
+           
+    
+          <div class="container-fluid  m-0 pb-2 pb-md-0 mb-0">
+              <div class="container-fluid  m-0 p-0 ">
+                  <div class="row pt-5">
+                      <div class="col-md-6 image-fluid">
+                          <img src="../assets/intro-pic-new-2.png" class="img-fluid" alt="Rehab Sharif Photo">
+                      </div>
+                      <div class="col-md-6 my-auto">
+                        <h1 class="text-center text-white d-flex justify-content-center justify-content-lg-start pl-md-5 mt-3 mt-md-0 d-md-none" >
+                          وقد عاهدتُ اللهَ أن أتركَ أثراً وأن 
+                          أكون في خدمة الناس ما استطعتُ
+                          إلى ذلكَ سبيلا</h1>
+                          <div class="d-none d-md-block">
+                          <h1 class="text-center text-white d-flex justify-content-center justify-content-lg-start pl-md-5 mt-3 mt-md-0"  >
+                              وقد عاهدتُ اللهَ أن أتركَ أثراً وأن <br>
+                              أكون في خدمة الناس ما استطعتُ<br>
+                              إلى ذلكَ سبيلا</h1>
+                            </div>
+      
+                          <div class="row pt-md-3">
+                              <div class="col-md-6 col-8 ">
+                                  <button type="button"
+                                      class="btn  btn-light  text-white btn-block round-corner mr-md-5 bg-secondary w-75 p-2">
+                                  <b>   احجز استشارتك الخاصة</b></button>
+                              </div>
+                              <!-- btn-g-w is custom class for aldawarat button  -->
+                              <div class="col-md-6 col-4 mb-3">
+                                  <button type="button" class="btn btn-light border btn-g-w btn-block w-75 p-2"><b> الدورات</b></button>
+                              </div>
+                          </div>
+      
+                      </div>
+      
+                  </div>
+              </div>
+          </div>
+      
+      </section>
+  
+  <!-- section 1 end  about rehab sharif  -->
+
+
+<div class="video-div" style="background-color: puple;margin-top: 0;">
+        <video src="../assets/backgroundvideo.mp4" autoplay muted loop></video>
+    
+    </div>
+        <!-- //caraousel background video end -->
+
+
+
+
+
+
+
+
+
+<!-- services option start  -->
+<div class="container-fluid pb-5">
+  <div class="container">
+      <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 text-center">
+              <img src="output-onlinepngtools.png" alt="" id="boardimage" class="img-fluid w-50">
+          </div>
+          <h5 class="mt-5 pt-3 pb-2 fs-4 text-center"><b>هل تريد التحدث ؟</b></h5>
+          <div class="col-md-6 text-center mt-md-0 mt-3">
+              
+              <div class="d-flex justify-content-center align-items-center">
+                  <h3 class="pl-sm-0 px-3 mb-0">احجز موعدا الآن</h3>
+                  <a href="#" class="btn btn-warning mb-2 px-2  fw-bold btn-block w-50 py-md-2" style="border-radius: 15px;"> سجل هنا</a>
+              </div>
+          </div>
+      </div>
+      <hr>
+      <div class="row gy-3">
+          <div class="col-md-6">
+              <div class="card h-100" style="border-radius: 20px;">
+                  <div class="card-body text-center">
+                      <a href="#courses">
+                          <img src="https://st2.depositphotos.com/1396879/5645/i/450/depositphotos_56453701-stock-photo-entrepreneur.jpg" alt="" class="img-fluid card-img">
+                          <h3 class="card-title mt-2">متعهد</h3>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card h-100" style="border-radius: 20px;">
+                  <div class="card-body text-center">
+                      <a href="#courses">
+                          <img src="https://www.nenkeconsulting.com/wp-content/uploads/2020/12/mentor.jpg" alt="" class="img-fluid card-img">
+                          <h3 class="card-title mt-2">معلمه</h3>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card h-100" style="border-radius: 20px;">
+                  <div class="card-body text-center">
+                      <a href="#courses">
+                          <img src="https://th.bing.com/th/id/R.a1052058afb16f7e72fdafdd26848049?rik=4FxnATdyprZQ7Q&pid=ImgRaw&r=0" alt="" class="img-fluid card-img">
+                          <h3 class="card-title mt-2"> مدرب الأعمال</h3>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card h-100" style="border-radius: 20px;">
+                  <div class="card-body text-center">
+                      <a href="#courses">
+                          <img src="https://leadwayconsult.com/wp-content/uploads/2020/09/business-consultant.jpg" alt="" class="img-fluid card-img">
+                          <h3 class="card-title mt-2">مستشار تسويق</h3>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- services option end  -->
+
+    <!-- stopwatch section start  -->
+<section>
+    <div class="container mt-5 mb-md-5">
+        <div class="row d-flex text-center ">
+            <div class="col-md-4 col-12 mb-5 mb-md-0"><span class="stopwatch fs-1"  id="stopwatch1"><strong>0</strong></span><hr> <span class="text-muted fs-4 fw-bold">ساعة تدريبية </span></div>
+            <div class="col-md-4 col-12 mb-5 mb-md-0"><span class="stopwatch fs-1" id="stopwatch2"><b>0</b></span><hr><span class="text-muted fs-4 fw-bold">مشترك غير حياته </span></div>
+            <div class="col-md-4 col-12 mb-5 mb-md-0"><span class="stopwatch fs-1" id="stopwatch3"><b>0</b></span><hr><span class="text-muted fs-4 fw-bold">استشارة سنويًا</span></div>
+        </div>
+    </div>
+</section>
+<hr>
+
+        <!-- stopwatch section ends  -->
+    
+          <!-- about rehab sharif section  start  -->
+
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 col-12 my-5 px-5 order-md-0 order-1">
+                <h4 class="my-md-5 pt-md-5 pb-2 text-center fs-1">أهلاً بكم أيها الأصدقاء</h4>
+                <p class="fs-5 text-muted text-end fs-5 fw-bolder">رحاب شريف استشاري التنمية البشرية والوعي الذاتي , مدربة دولية معتمدة منذ العام 2002 ورائدة أعمال لسلسلة من المشاريع و لديها أكثر من خمس عشرة سنة من الخبرة كمدربة دولية معتمدة ، و مستشار تدريب وتطوير، و مستشارة تسويق، و رائدة اعمال في قطاعات مختلفة كالتكنولوجيا وتقنية المعلومات والتسويق الإبداعي ، وهي المؤسس والرئيس التنفيذي لفيوتشر ماسترز الدولية ، المنظمة الرائدة التي توفر أحدث البرامج في التنمية البشرية.</h5>
+          
+           <div class="mt-5 text-center">
+                    <button class="btn round-corner mx-md-4 px-5" id="book_consultation_btn">احجز استشارتك الخاصة</button>
+                    <button class="btn round-corner px-5 ">عن رحاب</button>
+                </div>
+                </div>
+            <div class="col-md-6 col-12">
+                <img src="../assets/About-Rehab.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    
+    </section>
+    <!-- about section end  -->
+
+<hr class="horizontal-line mb-0">
+
+
+
+
+
+<!-- course category section - start  -->
+<section id="courses" class="mt-5">
+    <div class="container">
+        <div>
+          <div class="coursesection">
+    
+            <h3 class="text-center mb-2">الدورات المسجلة</h3>
+          </div>
+    
+          <div class="text-center">
+            <button class="btn btn-light m-2 px-4">الكل </button>
+            <button class="btn btn-light mx-3 px-4">الوعي </button>
+            <button class="btn btn-light mx-3 px-4">الطموح </button>
+            <button class="btn btn-light mx-1 px-4">العلاقات </button>
+            <button class="btn btn-light mx-2 px-4">المال </button>
+      
+          
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- course category section -end  -->
+
+
+
+
+                                    <!-- courses section list  -start  -->
+
+  <section id="courses">
+<!-- Button group  -->
+<div class="container mt-4">
+    <div class="container d-flex justify-content-end ">
+      <div class="row d-flex ">
+   
+    <div class="col-md-9 col-8 d-flex flex-wrap flex-md-nowrap ">
+      <div class=" active mb-3">
+        <select class="form-control" id="sfwd_prs-order-by" name="orderby">
+          <option value="alphabetical" selected="selected">مرتب حسب الحروف الأبجدية</option>
+          <option value="recent">حديثة الانشاء</option>
+        </select>
+      </div>
+
+      <div class="select-wrap active mb-3">
+        <select class="form-control" id="sfwd_instructors-order-by" name="filter-instructors">
+          <option value="all">كل المدربين</option>
+          <option value="20">sham admin</option>
+          <option value="3">suhail-admin</option>
+          <option value="11">حليمة شريف</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-3 col-4">
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn border border-1 rounded-1">  <i class="bi bi-grid" ></i></button>
+        <button type="button" class="btn border border-1 rounded-1"> <i class="bi bi-list"></i></button>
+    
+      </div>
+    </div>
+
+    </div>
+    </div>
+<!-- button group end  -->
+
+
+  </div>
+
+
+
+  
+<!-- courses section started  -->
+  <div class="container w-75 d-flex justify-content-end mb-4">
+    <div class="row row-cols-1 row-cols-md-3 g-md-2 g-4">
+    
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <span class="badge badge-primary position-absolute top-0 end-0 m-2" style="background-color:orangered">غير مشترك</span>
+    
+          <a href="">
+            <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B7%D9%87%D9%8A%D8%B1-%D8%A7%D9%84%D8%B1%D9%88%D8%AD%D9%8A-min-300x176.png" class="card-img-top align-content-center img-fluid"   alt="/assets/intro-pic-new-2.png" style="min-height:230px;max-height:  230px;">
+          </a>
+    
+    
+            <div class="card-body">
+              <h5 class="card-title" style="color:gray;font-size: smaller;">12 فيديوهات</h5>
+              <a href="#"  style="color: black;font-size: 24px;text-decoration: none;" > التطهير الروحي</a>
+              <p class="card-text pb-3">
+                الدليل الشامل لتطهير معيقاتك الداخلية والخارجية	</p>
+            </div>
+            <div class="card-footer  d-flex">
+              <span style="font-size: 22px;" id="currency_set">٣١٧.٨</span>
+              <span style="font-size: 22px;padding-right: 5px;">
+              دينار بحريني   				 	
+              </span>     
+               </div>
+          </div>
+        </div>
+       
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <span class="badge badge-danger position-absolute top-0 end-0 m-2" style="background-color:orangered">غير مشترك</span>
+    
+          <a href="">
+            <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%83%D9%8A%D9%86%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D9%88%D8%AD%D9%8A%D8%A9-min-300x176.png" class="card-img-top align-content-center img-fluid"   alt="/assets/intro-pic-new-2.png" style="min-height:230px;max-height:  230px;">
+          </a>
+    
+    
+            <div class="card-body">
+              <h5 class="card-title" style="color:gray;font-size: smaller;">12 فيديوهات</h5>
+              <a href="#"  style="color: black;font-size: 24px;text-decoration: none;" > التطهير الروحي</a>
+              <p class="card-text pb-3">
+                الدليل الشامل لتطهير معيقاتك الداخلية والخارجية	</p>
+            </div>
+            <div class="card-footer  d-flex">
+              <span style="font-size: 22px;" id="currency_set">٣١٧.٨</span>
+              <span style="font-size: 22px;padding-right: 5px;">
+              دينار بحريني   				 	
+              </span>     
+               </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <span class="badge badge-danger position-absolute top-0 end-0 m-2" style="background-color:orangered">غير مشترك</span>
+    
+          <a href="">
+            <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/%D8%AF%D9%88%D8%B1%D8%A9-%D8%AC%D8%B0%D8%A8-%D8%B4%D8%B1%D9%8A%D9%83-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-min-300x176.png" class="card-img-top align-content-center"   alt="/assets/intro-pic-new-2.png" style="min-height:230px;max-height:  230px;">
+          </a>
+    
+    
+            <div class="card-body">
+              <h5 class="card-title" style="color:gray;font-size: smaller;">12 فيديوهات</h5>
+              <a href="#"  style="color: black;font-size: 24px;text-decoration: none;" > التطهير الروحي</a>
+              <p class="card-text pb-3">
+                الدليل الشامل لتطهير معيقاتك الداخلية والخارجية	</p>
+            </div>
+            <div class="card-footer  d-flex">
+              <span style="font-size: 22px;" id="currency_set">٣١٧.٨</span>
+              <span style="font-size: 22px;padding-right: 5px;">
+              دينار بحريني   				 	
+              </span>     
+               </div>
+          </div>
+        </div>
+    
+    
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <span class="badge badge-danger position-absolute top-0 end-0 m-2" style="background-color:orangered">غير مشترك</span>
+    
+          <a href="">
+            <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/%D8%AF%D9%88%D8%B1%D8%A9-%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D9%85%D9%86-%D8%A7%D9%84%D9%84%D9%87-min-300x176.png" class="card-img-top align-content-center"   alt="/assets/intro-pic-new-2.png" style="min-height:230px;max-height:  230px;">
+          </a>
+   
+    
+            <div class="card-body">
+              <h5 class="card-title" style="color:gray;font-size: smaller;">12 فيديوهات</h5>
+              <a href="#"  style="color: black;font-size: 24px;text-decoration: none;" > التطهير الروحي</a>
+              <p class="card-text pb-3">
+                الدليل الشامل لتطهير معيقاتك الداخلية والخارجية	</p>
+            </div>
+            <div class="card-footer  d-flex">
+              <span style="font-size: 22px;" id="currency_set">٣١٧.٨</span>
+              <span style="font-size: 22px;padding-right: 5px;">
+              دينار بحريني   				 	
+              </span>     
+               </div>
+          </div>
+        </div>
+    
+    
+    
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <span class="badge badge-danger position-absolute top-0 end-0 m-2" style="background-color:orangered">غير مشترك</span>
+    
+          <a href="">
+            <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%AD%D9%82%D8%A7%D9%82-min-300x176.png" class="card-img-top align-content-center"   alt="/assets/intro-pic-new-2.png" style="min-height:230px;max-height:  230px;">
+          </a>
+        
+            <div class="card-body">
+              <h5 class="card-title" style="color:gray;font-size: smaller;">12 فيديوهات</h5>
+              <a href="#"  style="color: black;font-size: 24px;text-decoration: none;" > التطهير الروحي</a>
+              <p class="card-text pb-3">
+                الدليل الشامل لتطهير معيقاتك الداخلية والخارجية	</p>
+            </div>
+            <div class="card-footer  d-flex">
+              <span style="font-size: 22px;" id="currency_set">٣١٧.٨</span>
+              <span style="font-size: 22px;padding-right: 5px;">
+              دينار بحريني   				 	
+              </span>     
+               </div>
+          </div>
+        </div>
+    
+    
+    
+           <div class="col">
+          <div class="card h-100 position-relative">
+            <span class="badge badge-primary position-absolute top-0 end-0 m-2" style="background-color:orangered">غير مشترك</span>
+    
+          <a href="">
+            <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/%D9%81%D9%83-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%82-min-300x176.png" class="card-img-top align-content-center"   alt="/assets/intro-pic-new-2.png" style="min-height:230px;max-height:  230px;">
+          </a>
+    
+    
+            <div class="card-body">
+              <h5 class="card-title" style="color:gray;font-size: smaller;">12 فيديوهات</h5>
+              <a href="#"  style="color: black;font-size: 24px;text-decoration: none;" > التطهير الروحي</a>
+              <p class="card-text pb-3">
+                الدليل الشامل لتطهير معيقاتك الداخلية والخارجية	</p>
+            </div>
+            <div class="card-footer  d-flex">
+              <span style="font-size: 22px;" id="currency_set">٣١٧.٨</span>
+              <span style="font-size: 22px;padding-right: 5px;">
+              دينار بحريني   				 	
+              </span>     
+               </div>
+          </div>
+        </div>
+    
+    
+        
+    
+      </div>
+  </div>
+
+  </section>                                  
+
+<!-- courses section list -end  -->
+
+ <!-- more courses button  -->
+ <div class="container mb-5">
+    <div class="text-center"><button class="btn btn-light bg-navbar text-white px-5">جميع الدورات</button></div>
+ </div>
+
+ <!-- end more section button code  -->
+
+
+
+ <!-- live sessions section- start -->
+ <div class="container mt-3  w-75">
+    <h4 class="text-center mb-3"><b>الاستشارات والكوتشينج</b></h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/Making-goals-consultation-600x540-1-300x300.png " class="card-img-top" alt="..." style="min-height:230px;max-height:  230px;">
+            <div class="card-body">
+              <h5 class="card-title">استشارة صناعة الأهداف</h5>
+              <div class="card-text   text-center">
+                <span style="font-size: 16px;" id="currency_set"><b> ٣١٧.٨</b></span>
+                <span style="font-size: 16px;padding-right: 5px;">
+              <b>  دينار بحريني   </b>				 	
+                </span>     
+                 </div>
+            </div>
+            <div class="card-footer bg-white">
+              <small class="">إضافة إلى السلة</small>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card h-100 text-center">
+              <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/Truama-relief-consultation-600x540-1-300x300.png " class="card-img-top" alt="..." style="min-height:230px;max-height:  230px;">
+              <div class="card-body">
+                <h5 class="card-title">استشارة صناعة الأهداف</h5>
+                <div class="card-text   text-center">
+                  <span style="font-size: 16px;" id="currency_set"><b> ٣١٧.٨</b></span>
+                  <span style="font-size: 16px;padding-right: 5px;">
+                <b>  دينار بحريني   </b>				 	
+                  </span>     
+                   </div>
+              </div>
+              <div class="card-footer bg-white">
+                <small class="">إضافة إلى السلة</small>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/02/General-consultation_-problem-solving-300x300.png" class="card-img-top" alt="..." style="min-height:230px;max-height:  230px;">
+              <div class="card-body">
+                <h5 class="card-title">استشارة صناعة الأهداف</h5>
+                <div class="card-text   text-center">
+                  <span style="font-size: 16px;" id="currency_set"><b> ٣١٧.٨</b></span>
+                  <span style="font-size: 16px;padding-right: 5px;">
+                <b>  دينار بحريني   </b>				 	
+                  </span>     
+                   </div>
+              </div>
+              <div class="card-footer bg-white">
+                <small class="">إضافة إلى السلة</small>
+              </div>
+            </div>
+          </div>
+
+       
+
+ 
+      </div>
+      <div class="text-center mt-4"><button class="btn btn-light bg-navbar text-white px-md-4 "> جميع الخدمات الإستشارية</button></div>
+    </div>
+ </div>
+ <!-- live sessions section -end  -->
+
+
+
+ <!-- thought quote  start -->
+ <div class="container text-center w-50 mt-5">
+    <div class="container mt-5">
+        <div class="container mb-5">
+ <h4 class="text-success fs-3" id="thought">اخرجك من ظلمات نفسك إلى نور الله
+
+    من "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي كَبَدٍ"
+    
+    إلى "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى"</h4>
+</div>
+</div>
+</div>
+    <!-- thought quote end  -->
+
+    <!-- //testenomial section start  -->
+    <div class="container-fluid py-5">
+      <h2 class="text-center mb-4 text-white">Testimonials</h2>
+      <div class="row">
+          <div class="col-12">
+              <div class="slide-container mb-5">
+                  <div class="testimonial-cards">
+                      <div class="row g-3 g-md-0">
+                          <div class="col-lg-4 col-md-6">
+                              <div class="card testimonial-card">
+                                  <div class="card-body">
+                                      <h4 class="mb-3 text-white">Life-Changing Experience</h4>
+                                      <p class="testimonial-text">"I feel on top of the world. I feel incredible, I feel motivated. I am the master of my own destiny."</p>
+                                      <p class="testimonial-author mb-0" style="color: lime;">- John Doe <span style="color: limegreen;">, CEO at Company X</span></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6">
+                              <div class="card testimonial-card">
+                                  <div class="card-body">
+                                      <h4 class="mb-3 text-white">Empowering Guidance</h4>
+                                      <p class="testimonial-text">"Sed quis diam nec lorem malesuada fermentum. Nulla facilisi. Mauris non velit velit."</p>
+                                      <p class="testimonial-author mb-0" style="color: lime;">- Jane Doe <span style="color: limegreen;"> , Marketing Manager</span></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6">
+                              <div class="card testimonial-card">
+                                  <div class="card-body">
+                                      <h4 class="mb-3 text-white">"A Beacon of Wisdom"</h4>
+                                      <p class="testimonial-text">"Fusce condimentum varius nunc, at placerat enim. Vivamus porttitor pretium massa."</p>
+                                      <p class="testimonial-author mb-0" style="color: lime;">- David Smith <span style="color: limegreen;">, Entrepreneur</span></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+      <!-- testenomial section end  -->
+ <hr class="horizontal-line mb-0 mt-0">
+
+ <!-- // contact form start  -->
+<section>
+ <div class="container-fluid mt-0">
+    <div class="container p-5">
+      <div class="row ">
+        <div class="col-md-6 col-12 order-md-0 order-1">
+          
+          <form id="myForm" class="">
+            <div class="form-group">
+            <h3 class="text-center mb-md-5 mb-2 mt-5 mt-md-0">ترغب بدورة مجانية؟ اشترك في نشرتنا الاخباريّة لتصلك الآن</h3>
+              <input type="text" class="form-control" id="firstName" name="firstName" required placeholder="الاسم الكامل">
+            </div>
+    
+            <div class="form-group">
+             
+              <input type="email" class="form-control" id="email" name="email" required placeholder="لبريد الالكتروني">
+              
+            </div>
+    
+            <div class="form-group">
+             
+              <input type="tel" class="form-control" id="contactNumber" name="contactNumber"  pattern="[0-9]{10}" required placeholder="رقم التواصل (مع المفتاح)">
+             
+            </div>
+    
+            <button type="submit" class="btn btn-success btn-block round-corner mb-5">ارسلّي الدورة</button>
+          </form>
+        </div>
+        <div class="col-md-6 col-12 "> <img class="img-fluid img-thumbnail rounded rounded-5  "
+          src="https://content.thriveglobal.com/wp-content/uploads/2018/07/MENTORSHIP.jpg?w=1550"
+          alt=""></div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- contact form end  -->
+
+
+ <!-- //article section start  -->
+ <!-- <section>
+ <div class="container mt-5  w-75">
+    <h4 class="text-center mb-3"><b>المقالات والمواضيع</b></h4>
+    <div class="row row-cols-1 row-cols-md-3 g-2">
+
+    
+        <div class="col">
+          <div class="card h-100 ">
+          
+    
+          <a href="">
+            <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/07/4142-12.jpg" class="card-img-top align-content-center img-fluid"   alt="/assets/intro-pic-new-2.png" style="min-height:180px;max-height:  180px;">
+          </a>
+    
+    
+            <div class="card-body">
+             
+              <a href="#"  style="color: black;font-size: 20px;text-decoration: none;" > لستُ أدري!</a>
+              <p class="card-text">
+                بين حينٍ وحين، تُجبرنا الأشواق الدفينة أن نلتقي بالأحبة رغم المشاغل، فنلتقي بالفتيات اللاتي أصبحوا اليوم “حريم”.. “كبرنا”.. نجلس في بقعة معينة حيث تتكفل إحداهن  بالانتقاء	</p>
+           <a href="#" style="color: #AB71A1;">تابع القراءة</a>
+            </div>
+           
+          </div>
+        </div>
+       
+    
+        <div class="col">
+            <div class="card h-100 ">
+            
+      
+            <a href="">
+              <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/07/127-153132-benefits-of-early-sleep-for-children-2.jpg" class="card-img-top align-content-center img-fluid"   alt="/assets/intro-pic-new-2.png" style="min-height:180px;max-height:  180px;">
+            </a>
+      
+      
+              <div class="card-body">
+               
+                <a href="#"  style="color: black;font-size: 20px;text-decoration: none;" > لستُ أدري!</a>
+                <p class="card-text">
+                  بين حينٍ وحين، تُجبرنا الأشواق الدفينة أن نلتقي بالأحبة رغم المشاغل، فنلتقي بالفتيات اللاتي أصبحوا اليوم “حريم”.. “كبرنا”.. نجلس في بقعة معينة حيث تتكفل إحداهن  بالانتقاء	</p>
+             <a href="#" style="color: #AB71A1;">تابع القراءة</a>
+              </div>
+             
+            </div>
+          </div>
+    
+    
+          <div class="col">
+            <div class="card h-100 ">
+            
+      
+            <a href="">
+              <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/07/girl-3402351_1920-1024x683-1-768x512.jpg" class="card-img-top align-content-center img-fluid"   alt="/assets/intro-pic-new-2.png" style="min-height:180px;max-height:  180px;">
+            </a>
+      
+      
+              <div class="card-body">
+               
+                <a href="#"  style="color: black;font-size: 20px;text-decoration: none;" > لستُ أدري!</a>
+                <p class="card-text">
+                  بين حينٍ وحين، تُجبرنا الأشواق الدفينة أن نلتقي بالأحبة رغم المشاغل، فنلتقي بالفتيات اللاتي أصبحوا اليوم “حريم”.. “كبرنا”.. نجلس في بقعة معينة حيث تتكفل إحداهن  بالانتقاء	</p>
+             <a href="#" style="color: #AB71A1;">تابع القراءة</a>
+              </div>
+             
+            </div>
+          </div>
+    
+    
+          <div class="col">
+            <div class="card h-100 ">
+            
+      
+            <a href="">
+              <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/07/TYLsZajG5U.jpg" class="card-img-top align-content-center img-fluid"   alt="/assets/intro-pic-new-2.png" style="min-height:180px;max-height:  180px;">
+            </a>
+      
+      
+              <div class="card-body">
+               
+                <a href="#"  style="color: black;font-size: 20px;text-decoration: none;" > لستُ أدري!</a>
+                <p class="card-text">
+                  بين حينٍ وحين، تُجبرنا الأشواق الدفينة أن نلتقي بالأحبة رغم المشاغل، فنلتقي بالفتيات اللاتي أصبحوا اليوم “حريم”.. “كبرنا”.. نجلس في بقعة معينة حيث تتكفل إحداهن  بالانتقاء	</p>
+             <a href="#" style="color: #AB71A1;">تابع القراءة</a>
+              </div>
+             
+            </div>
+          </div>
+    
+    
+          <div class="col">
+            <div class="card h-100 ">
+            
+      
+            <a href="">
+              <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/07/IMG-20230511-WA0070.jpg" class="card-img-top align-content-center img-fluid"   alt="/assets/intro-pic-new-2.png" style="min-height:180px;max-height:  180px;">
+            </a>
+      
+      
+              <div class="card-body">
+               
+                <a href="#"  style="color: black;font-size: 20px;text-decoration: none;" > لستُ أدري!</a>
+                <p class="card-text">
+                  بين حينٍ وحين، تُجبرنا الأشواق الدفينة أن نلتقي بالأحبة رغم المشاغل، فنلتقي بالفتيات اللاتي أصبحوا اليوم “حريم”.. “كبرنا”.. نجلس في بقعة معينة حيث تتكفل إحداهن  بالانتقاء	</p>
+             <a href="#" style="color: #AB71A1;">تابع القراءة</a>
+              </div>
+             
+            </div>
+          </div>
+    
+    
+          <div class="col">
+            <div class="card h-100 ">
+            
+      
+            <a href="">
+              <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/07/mailbox-black-and-white-rural.jpg" class="card-img-top align-content-center img-fluid"   alt="/assets/intro-pic-new-2.png" style="min-height:180px;max-height:  180px;">
+            </a>
+      
+      
+              <div class="card-body">
+               
+                <a href="#"  style="color: black;font-size: 20px;text-decoration: none;" > لستُ أدري!</a>
+                <p class="card-text">
+                  بين حينٍ وحين، تُجبرنا الأشواق الدفينة أن نلتقي بالأحبة رغم المشاغل، فنلتقي بالفتيات اللاتي أصبحوا اليوم “حريم”.. “كبرنا”.. نجلس في بقعة معينة حيث تتكفل إحداهن  بالانتقاء	</p>
+             <a href="#" style="color: #AB71A1;">تابع القراءة</a>
+              </div>
+             
+            </div>
+          </div>
+ 
+    
+      </div>
+      <div class="text-center mt-4"><button class="btn btn-light bg-navbar text-white px-md-4 "> جميع المقالات</button></div>
+    </div>
+</section> -->
+ <!-- article section end  -->
+
+
+    <!-- contact us form start -->
+    <!-- <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 text-center">
+              <img class="img-fluid  rounded rounded-5 w-75 mt-md-5"
+                  src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/05/Contact.png"
+                  alt="">
+            </div>
+            <div class="col-md-6 col-12 order-md-0 order-1 mt-md-5">
+                  
+              <form id="myForm" class="pr-md-5" >
+                <div class="form-group">
+                <h3 class="text-center mb-md-5 mb-2 mt-md-5 mt-3 mt-md-0">قُل لي شيئاً يا صديقي ..</h3>
+                <p class="text-center">افضل الاستثمارات هو استثمارك في ذاتك. تواصل معنا اليوم لنجيب عن كل أسئلتك التي تقف بينك و بين السعادة</p>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required placeholder="الاسم الكامل">
+                </div>
+        
+                <div class="form-group">
+                 
+                  <input type="email" class="form-control" id="email" name="email" required placeholder="البريد الالكتروني">
+                  
+                </div>
+        
+                <div class="form-group">
+                 
+                  <textarea class="form-control"  id="txtareamessage" rows="4" placeholder="الرسالة"></textarea>
+                 
+                </div>
+        
+                <button type="submit" class="btn btn-success round-corner btn-block round-corner mb-5">ارسال</button>
+              </form></div>
+          </div>
+        </div>
+          
+        </section>
+         -->
+    <!-- contact us form end  -->
+
+
+<hr class="horizontal-line mb-0 mt-0">
+    <!-- footer section start  -->
+
+    <section class="d-md-block mt-md-0">
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container-fluid">
+      <!-- Footer -->
+      <footer class="text-center text-lg-start text-white">
+              
+        <!-- Grid container -->
+        <div class="container p-4 pb-0 ">
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-around">
+        
+            
+    
+              <!--Grid column-->
+              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">عن رحاب</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">وكلائنا</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">المقالات</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">الأسئلة الشائعة</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">تواصل معنا</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+               
+    
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">طلباتي</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">تسجيل الدخول</a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <!--Grid column-->
+    
+              <div class="col-lg-4 col-md-6 mb-3 mb-md-0">
+    
+                <img src="https://rehabsharif.b-cdn.net/wp-content/uploads/2023/05/Contact.png" class="img-fluid w-50" style="border-radius:70%;border:1px solid white;"/>
+    
+           
+              </div>
+
+
+       
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+    
+          
+    
+          <!-- Section: CTA -->
+       
+          <!-- Section: CTA -->
+    
+          <hr class="mb-4" />
+    
+          <!-- Section: Social media -->
+          <section class=" text-center mb-0">
+            <h5 class="text-center text-white mb-2">تابعنا</h5>
+            <!-- Facebook -->
+            <a
+            class="btn btn-floating m-1 mb-0mb-0 "
+            href="#!"
+            role="button"
+            ><i class="bi bi-facebook text-white"></i
+           ></a>
+            <!-- Twitter -->
+            <a
+               class="btn btn-floating m-1 mb-0"
+               href="#!"
+               role="button"
+               ><i class="bi bi-twitter text-white"></i
+              ></a>
+    
+            <!-- Google -->
+            <a
+            class="btn btn-floating m-1 mb-0"
+            href="#!"
+            role="button"
+            ><i class="bi bi-google text-white"></i
+           ></a>
+    
+            <!-- Instagram -->
+            <a
+            class="btn btn-floating m-1 mb-0"
+            href="#!"
+            role="button"
+            ><i class="bi bi-instagram text-white"></i
+           ></a>
+    
+            <!-- Linkedin -->
+            <a
+            class="btn btn-floating m-1 mb-0"
+            href="#!"
+            role="button"
+            ><i class="bi bi-linkedin text-white"></i
+           ></a>
+    
+            <!-- youtube -->
+            <a
+            class="btn btn-floating m-1 mb-0"
+            href="#!"
+            role="button"
+            ><i class="bi bi-youtube text-white"></i
+           ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div
+             class="text-center p-3"
+             style="background-color: rgba(0, 0, 0, 0.2)"
+             >
+          © 2019 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/"
+             >rehabsharif.com</a
+            >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+    </section>
+
+    <!-- footer section end  -->
+ 
+
+        <script src="myjavascript.js" ></script>
+
+
+</body>
+</html>

@@ -1,0 +1,241 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
+font-family: 'Noto Kufi Arabic', sans-serif; */
+:root{
+    /* --primary-color:#AB71A1; */
+    --primary-color:#89347A;
+}
+body {
+    margin: 0;
+   
+overflow-x: hidden;
+
+}
+
+hr.horizontal-line{
+
+        width: 100%; /* Adjust the width as needed */
+        height: 4px; /* Set the height to your desired thickness */
+        opacity: 0.8;    
+        background-color: purple; /* Set the color of the hr  343A40*/
+        margin: 10px auto; /* Adjust margin as needed */
+      
+}
+/* Navbar section  */
+
+/*background color for navbar*/
+.bg-navbar {
+    background-color: var(--primary-color);
+}
+
+/*spacing between navbar elements*/
+li a {
+    margin-left: 7px;
+}
+
+/*round corner for navbar elements*/
+.nav-link {
+    border-radius: 15px;
+
+}
+
+/*hover color for navbar elemnet*/
+.nav-link:hover,
+button:hover {
+
+
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+.nav_active_btn {
+
+    border-radius: 15px;
+    background-color: #9CC045;
+}
+
+
+.round-corner {
+    border-radius: 15px;
+}
+
+
+
+/* Navbar section end       */
+video{
+width: 100%;
+border: 5px solid yellow;
+
+}
+
+
+/* Section 1 start - About RehabSharif Design */
+
+
+.rehab_design_bg_img {
+background-color: var(--primary-color);
+    /* background-image: url('/assets/courses-cover.png'); */
+    /* rehab flower background image  */
+}
+
+
+.btn-g-w {
+    color: white;
+    background-color: #9CC045;
+    /* button green white style  */
+    border-radius: 5px;
+
+}
+
+
+/* Section 1 End */
+
+
+.card {
+    transition: transform 0.3s ease-in-out; /* Add smooth transition */
+  }
+
+  .card:hover {
+   
+    transform: scale(1.01); /* Scale up on hover */
+    /* Scale up on hover */
+    box-shadow: 0px 0px 15px 5px rgba(219, 255, 15, 0.7); /* Glowing shadow on hover */
+  
+  }
+
+
+  a{
+    color: black;
+  }
+/* stopwatch code  */
+.stopwatch{
+    color: var(--primary-color);
+    font-size: xx-larger;
+   font-weight: bolder;
+   
+    
+
+    
+}
+#thought{
+    transition: transform 0.3s ease-in-out;
+}
+
+#thought:hover{
+    transform: scale(1.2);
+  
+}
+
+/* testenomial section   */
+
+.testimonial-card {
+    
+    border: 1px solid yellow;
+    border-radius: 20px;
+    background-color: var(--primary-color); /* Purple theme color c728cc*/
+    transition: transform 0.3s ease-in-out;
+   
+  }
+
+  .testimonial-card:hover {
+ transform: scale(1);
+
+    box-shadow: 10px 8px 9px 5px rgba(220, 255, 66, 0.7); /* Initial shadow */
+    transition: box-shadow 0.3s ease;
+  }
+
+  .testimonial-text {
+    font-size: 18px;
+    font-style: italic;
+    color: yellow; /* Text color */
+  }
+
+  .testimonial-author {
+    font-size: 16px;
+    font-weight: bold;
+    color: #eee; /* Text color */
+  }
+
+  .testimonial-author span {
+    font-style: normal;
+    color: #ccc; /* Text color */
+  }
+
+  .slide-container {
+    overflow: hidden;
+  }
+
+  .testimonial-cards {
+    display: flex;
+   
+    animation: slideAnimation 15s infinite; /* Adjust the animation duration and timing */
+    animation-delay: 3s;
+  }
+  .testimonial-cards:hover {
+    animation-play-state: paused; /* Pause the animation when hovered */
+  }
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0);
+      }
+
+    35%{
+        transform: translateX(-12%);
+        
+    }
+    50%{
+        transform: translateX(-40%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+/* stopwatch code ends  */
+
+/* about rehab section  */
+
+.btn{
+    border: 1px solid var(--primary-color);
+    border-radius: 15px;
+ 
+ }
+
+
+.btn:hover{
+  
+    box-shadow: 0 0 6px #9CC045;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.bi-list{
+    color: white;
+
+
+}
+
+#book_consultation_btn{
+background-color: var(--primary-color);
+color: white;
+}
+/* about rehab section end  */
+
+ /* contact form start */
+
+ .container-fluid {
+    background-color: var(--primary-color);
+    color:white;
+}
+ /* contact form end  */
+
+ /* footer section  */
+ footer{
+    background-color: var(--primary-color)
+ }
